@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #dba4a4;
+    color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-align: center;
+}
+
+.clock {
+    font-size: 4rem;
+    background: #333840;
+    padding: 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.clock:hover {
+    transform: scale(1.05);
+}
+
